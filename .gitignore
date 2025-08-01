@@ -1,0 +1,18 @@
+# 1. 외부 패키지 무시 
+../sllidar_ros2/
+../rf2o_laser_odometry/
+
+# 2. 빌드 결과물 무시 
+../../build/
+../../install/
+../../log/
+
+# 3. Python 캐시 무시
+__pycache__/
+*.pyc
+
+# 4. 에디터 설정파일 무시
+.vscode/
+.idea/
+*.swp
+*~
